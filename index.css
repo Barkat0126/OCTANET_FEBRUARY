@@ -1,0 +1,392 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    background: #0f0f10;
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+    
+}
+body{
+    margin: 0 15vw;
+}
+/*nav-bar*/
+nav div {
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    margin-left: 400px;
+    list-style: none;
+    gap: 40px;
+}
+nav ul li{
+    font-size: 16px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+nav button{
+    height: 50px;
+    width: 140px;   
+    background-color: #1e1e21;
+    border-radius: 10px;
+    font-weight: 300px;
+    font-size: 15px;
+    cursor: pointer;
+}
+nav img{
+    height: 30px;
+    width: 30px;
+}
+/*main-section*/
+main{
+    display: flex;
+    justify-content: center;
+}
+
+img[alt="big headphone"] {
+    position: relative;
+    top: -200px;
+    right: 90px;   
+}
+
+/*on ear*/
+img[alt="on Ear"]{
+    position: relative;
+    top: -50px;
+    right: -30px;
+}
+/*main content*/
+main div{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    position: relative;
+    right: -60px;
+    top: -30px;
+    line-height: 30px;
+}
+/*beats*/
+main h1{
+    font-size: 50px;
+    position: relative;
+    top: -30px;
+}
+main h3{
+    font-size: 16px;
+    font-weight: 500;
+}
+main p{
+    font-weight: 300;
+}
+/*add to bag*/
+.add-to-bag {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    background: #1e1e21;
+    border-radius: 8px;
+    width:380px;
+    height: 60px;
+    position: relative;
+    top: 20px;
+    left: -5px;
+    cursor: pointer;
+}
+.add-to-bag img{
+    background-color: #1e1e21;
+}
+.add-to-bag p{
+    background-color: #1e1e21;
+}
+.add-to-bag p span{
+    background-color: #1e1e21;
+}
+/*social-media*/
+.section-social-media{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    
+}
+/*specs*/
+/*speacilly for specs logo*/
+.specs-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 80px;
+}
+/*for specs logo*/
+.section-specs{
+    margin: 100px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.section-specs div {
+    gap: 0px;
+    align-content: space-evenly;
+    
+}
+/*bluetooth*/
+.section-specs div .bluetooth{
+    position: relative;
+    right: -30px;
+    top: -30px;
+}
+/*bettary*/
+.section-specs div .bettary{
+    position: relative;
+    left: -50px;
+    top: -10px;
+}
+/*charger*/
+.section-specs div .charger{
+    position: relative;
+    left: -50px;
+    bottom: -10px;
+}
+/*mic*/
+.section-specs div .mic{
+    position: relative;
+    right: -30px;
+    bottom: -40px;
+}
+/*-----------------------
+-------case-section-----
+------------------------*/
+/*case-logo*/
+.case-logo{
+    margin: 130px;
+    display: flex;
+    justify-content: center;
+}
+/*section*/
+.case-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+.case-content{
+    font-weight: 400;
+}
+.case-button{
+    position: relative;
+    bottom: -50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    height: 50px;
+    background: #1e1e21;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.case-button img{
+    scale: 0.9;
+    background-color:transparent;
+}
+
+/*-------------------------------------------------------
+---------------------buy-product--------------------------
+---------------------------------------------------------*/
+
+.buy-product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 180px;
+    height: 400px;
+    background-color: #181a1b;
+    border-radius: 20px;
+    gap: 50px;
+}
+/*we are doing background transparent*/
+.buy-product h3,
+.buy-product p,
+.buy-product div,
+.buy-product img{
+    background-color: transparent;
+}
+section .buy-now-button{
+    position: relative;
+    bottom: -30px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+    background-color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+.buy-product h3{
+    position: relative;
+    top: -20px;
+}
+
+/*----------------------section--------------------------
+-----------------choose-your-style-----------------------
+------------------------img-----------------------------*/
+
+/*choose-your-style-img*/
+
+.choose-your-img{
+    text-align: center;
+    margin-top: 100px;
+    scale: 0.9;
+    position: relative;
+    bottom: -80px;
+}
+
+
+/*----------------------section--------------------------
+-----------------headphones-collection-------------------
+-----------------------product---------------------------*/
+
+.product{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto;
+    scale: 0.7;
+    gap: 120px;
+    margin-top: -100px;
+
+
+}
+.product-card{
+    background-color: transparent;
+    background: #181a1b;
+    width: 350px;
+    height: 500px;
+    border-radius: 20px;
+    margin-top: 150px;
+}
+.product-img {
+    background-color: transparent;
+    width: 300px;
+    position: relative;
+    top: -150px;
+    right: -25px;
+}
+
+/*product-info*/
+.product-card p{
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    background: #181a1b;
+    
+}
+
+.product-card p span{
+    font-size: 25px;
+    position: relative;
+    right: -50px;
+    top: -30px;
+    background-color: transparent;
+
+}
+.product-card h4{
+    background-color: transparent;
+    background: #181a1b;
+}
+.product-card h2{
+    background-color: transparent;
+    background: #181a1b;
+}
+/*product-bag-img*/
+.product-card p img{
+    background-color: transparent;
+    border-radius: 10px;
+    height: 50px;
+    position: relative;
+    top: -50px;
+    left: -40px;
+    font-size: 20px;
+}
+
+.product-info{
+    background-color: transparent;
+    position: relative;
+    right: -50px;
+    top: -30px;
+    font-size: 25px;
+    
+
+}
+.product-info{
+    display: flex;
+}
+
+/*------------------------------------
+-------------------
+-----------------headphones-collection-------------------
+--------------------------------------------------------*/
+
+footer{
+    margin-top: -150px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    
+}
+.support-list,
+.product-list{
+    list-style: none;
+    position: relative;
+    bottom: -25px;
+    line-height: 30px;
+}
+.footer-img img{
+    height: 40px;
+}
+.social-logo{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.text-box{
+    width: 350px;
+    height: 60px;
+    background-color: #181a1b;
+    border-radius: 10px;
+    border: #181a1b;
+    cursor: pointer;
+}
+.subscribe-button{
+   height: 40px;
+   width: 150px;
+   background-color: #0f0f10;
+   border-radius: 10px;
+   position: relative;
+   top: -50px;
+   right: -180px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   cursor: pointer;
+}
+
+.text-box{
+    position: relative;
+}
